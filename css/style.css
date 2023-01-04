@@ -68,7 +68,8 @@ h2 {
 .date {
   opacity: 0.8;
   margin: 0;
-  /* letter-spacing: 0.05rem; */
+  font-weight: bold;
+  letter-spacing: 0.05rem;
   /* color: darkslateblue;
   font-family: "Numans", sans-serif; */
   /* text-shadow: 2px 3px 0px #898999; */

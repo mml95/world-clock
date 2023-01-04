@@ -92,9 +92,9 @@ select:focus {
   -webkit-tap-highlight-color: darkslateblue;
 }
 
-.fa-spin {
+/* .fa .fa-spin {
   animation-duration: 5.5s;
-}
+} */
 
 footer {
   text-align: center;

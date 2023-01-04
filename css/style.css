@@ -51,6 +51,7 @@ h2 {
   align-items: center;
   width: 100%;
   border-bottom: 1px solid white;
+  margin-bottom: 10px;
 }
 
 .city:last-child {
@@ -60,7 +61,6 @@ h2 {
 .date {
   opacity: 0.8;
   margin: 0;
-  font-weight: bold;
   letter-spacing: 0.05rem;
 }
 
@@ -82,6 +82,7 @@ select {
   border-radius: 30px;
   border: 0.2rem solid white;
   padding: 10px;
+  margin-bottom: 20px;
   background-color: rgba(255, 255, 255, 0.5);
   color: darkslateblue;
 }

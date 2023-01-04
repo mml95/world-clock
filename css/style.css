@@ -46,7 +46,7 @@ h2 {
 .city {
   padding: 40px 0 30px;
   display: flex;
-  line-height: 2rem;
+  line-height: 1.5rem;
   justify-content: space-between;
   align-items: center;
   width: 100%;

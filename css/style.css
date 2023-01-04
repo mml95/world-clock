@@ -1,11 +1,6 @@
 body {
-  /* background: #a55233; */
   background: #c2c6c5;
   font-family: "Archivo Narrow", sans-serif;
-
-  /* font-family: "Numans", sans-serif; */
-  /* background: #f3bc77; */
-  /* background: #402a23; */
 }
 
 .container {
@@ -29,7 +24,6 @@ body {
   );
   padding: 0 30px;
   border-radius: 10px;
-  /* box-shadow: 0px 15px 13px -7px #000000; */
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -39,7 +33,6 @@ h1 {
   font-size: 50px;
   padding: 50px 0 10px;
   margin: 25px auto;
-  /* text-transform: uppercase; */
 }
 
 h2 {
@@ -51,7 +44,6 @@ h2 {
 }
 
 .city {
-  /* margin: 20px 0; */
   padding: 40px 0 30px;
   display: flex;
   line-height: 2rem;
@@ -70,9 +62,6 @@ h2 {
   margin: 0;
   font-weight: bold;
   letter-spacing: 0.05rem;
-  /* color: darkslateblue;
-  font-family: "Numans", sans-serif; */
-  /* text-shadow: 2px 3px 0px #898999; */
 }
 
 .time {
@@ -88,17 +77,13 @@ h2 {
 
 select {
   display: block;
-  /* font-family: "Numans", sans-serif; */
   font-size: 16px;
   width: 100%;
   border-radius: 30px;
   border: 0.2rem solid white;
   padding: 10px;
-  /* background: none; */
   background-color: rgba(255, 255, 255, 0.5);
   color: darkslateblue;
-  /* color: darkslategray; */
-  /* color: #fdfdfd; */
 }
 
 select:focus {
@@ -123,9 +108,11 @@ a:visited {
   h1 {
     font-size: 45px;
   }
+
   h2 {
     font-size: 30px;
   }
+
   .time {
     font-size: 30px;
   }
@@ -139,6 +126,7 @@ a:visited {
   h2 {
     font-size: 18px;
   }
+
   .time {
     font-size: 25px;
   }

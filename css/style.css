@@ -112,6 +112,12 @@ footer {
   text-align: center;
 }
 
+a,
+a:visited {
+  text-decoration: none;
+  color: #551a8b;
+}
+
 @media (max-width: 415px) {
   h1 {
     font-size: 45px;

@@ -112,7 +112,19 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 415px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .time {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
   h1 {
     font-size: 37px;
   }

@@ -50,7 +50,7 @@ h2 {
 
 .city {
   /* margin: 20px 0; */
-  padding: 35px 0;
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -93,6 +93,10 @@ select {
   color: darkslateblue;
   /* color: darkslategray; */
   /* color: #fdfdfd; */
+}
+
+select:focus {
+  -webkit-tap-highlight-color: darkslateblue;
 }
 
 .fa-spin {

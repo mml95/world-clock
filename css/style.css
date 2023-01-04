@@ -111,3 +111,16 @@ select:focus {
 footer {
   text-align: center;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 37px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+  .time {
+    font-size: 25px;
+  }
+}

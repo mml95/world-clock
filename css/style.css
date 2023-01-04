@@ -11,7 +11,7 @@ body {
 .container {
   color: white;
   max-width: 575px;
-  margin: 25px auto;
+  margin: 10px auto;
   background-image: linear-gradient(
     to left top,
     #d16ba5,

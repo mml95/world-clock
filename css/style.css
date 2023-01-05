@@ -110,6 +110,12 @@ a .fa-list {
   font-family: "Archivo Narrow", sans-serif;
 }
 
+@media (max-width: 568px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
 @media (max-width: 415px) {
   h1 {
     font-size: 45px;
@@ -117,6 +123,10 @@ a .fa-list {
 
   h2 {
     font-size: 30px;
+  }
+
+  .hidden-mobile {
+    display: none;
   }
 
   .time {

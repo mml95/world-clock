@@ -88,16 +88,6 @@ select {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-input:focus-visible {
-  outline-offset: 0px;
-  outline: -webkit-focus-ring-color auto 1px;
-  border-color: red;
-}
-
-/* .fa .fa-spin {
-  animation-duration: 5.5s;
-} */
-
 footer {
   text-align: center;
 }

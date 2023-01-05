@@ -71,6 +71,7 @@ function updateCity(event) {
     "A"
   )}</small></div>
   </div>
+  <a href="index.html" class="city"><i class="fa-solid fa-list"><span class="icon-font"> View list</span></i></a>
   `;
 }
 

@@ -98,6 +98,18 @@ a:visited {
   color: #551a8b;
 }
 
+a:hover {
+  font-size: 17px;
+}
+
+a .fa-list {
+  color: white;
+}
+
+.icon-font {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
 @media (max-width: 415px) {
   h1 {
     font-size: 45px;

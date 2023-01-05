@@ -12,66 +12,78 @@
     ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Numans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Numans&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
-
     <div class="container">
-      <h1>World Clock <i class="fa-regular fa-clock fa-spin" style="--fa-animation-duration: 5.5s"></i></h1>
-      <select name="" id="">
-        <option value="" class="value">Select a city...</option>
-        <option value="" class="value">Current Location</option>
-        <option value="" class="value">Bangalore 🇮🇳</option>
-        <option value="" class="value">Sydney 🇦🇺</option>
-        <option value="" class="value">Bangkok 🇹🇭</option>
-        <option value="" class="value">Shanghai 🇨🇳</option>
-        <option value="" class="value">Anchorage 🇺🇸</option>
+      <h1>
+        World Clock
+        <i
+          class="fa-regular fa-clock fa-spin"
+          style="--fa-animation-duration: 5.5s"
+        ></i>
+      </h1>
+
+      <select id="city">
+        <option value="">Select a city...</option>
+        <option value="">Current Location</option>
+        <option value="America/San_Paulo">Sao Paulo 🇧🇷</option>
+        <option value="Pacific/Auckland">Auckland 🇳🇿</option>
+        <option value="Australia/Sydney">Sydney 🇦🇺</option>
+        <option value="Antarctica/Rothera">Rothera 🇦🇶</option>
+        <option value="Asia/Bangkok">Bangkok 🇹🇭</option>
+        <option value="Asia/Shanghai">Shanghai 🇨🇳</option>
+        <option value="America/Anchorage">Anchorage 🇺🇸</option>
       </select>
 
-      <div class="city" id="london">
-        <div>
-          <h2>London 🏴󠁧󠁢󠁥󠁮󠁧󠁿</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="london">
+          <div>
+            <h2>London 🏴󠁧󠁢󠁥󠁮󠁧󠁿</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time"><small></small></div>
-      </div>
-    
-    <div class="city" id="tokyo">
-        <div>
-          <h2>Tokyo 🇯🇵</h2>
-          <div class="date"></div>
-        </div>
-        <div class="time"><small></small></div>
-      </div>
-  
-       <div class="city" id="new-york">
-        <div>
-          <h2>New York 🇺🇸</h2>
-          <div class="date"></div>
-        </div>
-        <div class="time"><small></small></div>
-      </div>
 
-      <div class="city" id="reykjavik">
-        <div>
-          <h2>Reykjavik 🇮🇸</h2>
-          <div class="date"></div>
+        <div class="city" id="tokyo">
+          <div>
+            <h2>Tokyo 🇯🇵</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time"><small></small></div>
-      </div>
 
-      <div class="city" id="lagos">
-        <div>
-          <h2>Lagos 🇳🇬</h2>
-          <div class="date"></div>
+        <div class="city" id="new-york">
+          <div>
+            <h2>New York 🇺🇸</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time"><small></small></div>
+
+        <div class="city" id="reykjavik">
+          <div>
+            <h2>Reykjavik 🇮🇸</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
+        </div>
+
+        <div class="city" id="lagos">
+          <div>
+            <h2>Lagos 🇳🇬</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
+        </div>
       </div>
-    </div>
     </div>
 
     <footer>

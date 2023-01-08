@@ -44,9 +44,17 @@ h2 {
 }
 
 .city {
-  padding: 30px 0;
   display: flex;
   line-height: 1.5rem;
+}
+
+.list {
+  line-height: 4.5rem;
+}
+
+.city,
+.list {
+  padding: 30px 0;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -54,7 +62,8 @@ h2 {
   margin-bottom: 10px;
 }
 
-.city:last-child {
+.city:last-child,
+.list:last-child {
   border: none;
 }
 

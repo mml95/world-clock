@@ -123,6 +123,10 @@ a .fa-list {
   .hidden-mobile {
     display: none;
   }
+
+  .container {
+    margin-top: -16px;
+  }
 }
 
 @media (max-width: 415px) {

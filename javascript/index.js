@@ -73,6 +73,9 @@ function updateCity(event) {
   </div>
   <a href="/" class="list"><i class="fa-solid fa-list"><span class="icon-font"> View list</span></i></a>
   `;
+  setTimeout(() => {
+    updateCity(event);
+  }, 1000);
 }
 
 updateTime();

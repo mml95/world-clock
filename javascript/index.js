@@ -6,7 +6,7 @@ function updateTime() {
     let londonTimeElement = londonElement.querySelector(".time");
     let londonTime = moment().tz("Europe/London");
 
-    londonDateElement.innerHTML = londonTime.format("MMMM D, YYYY");
+    londonDateElement.innerHTML = londonTime.format("ddd, MMMM D, YYYY");
     londonTimeElement.innerHTML = londonTime.format(
       "h:mm:ss [<small>]A[</small>]"
     );
@@ -18,7 +18,7 @@ function updateTime() {
   let tokyoTimeElement = tokyoElement.querySelector(".time");
   let tokyoTime = moment().tz("Asia/Tokyo");
 
-  tokyoDateElement.innerHTML = tokyoTime.format("MMMM D, YYYY");
+  tokyoDateElement.innerHTML = tokyoTime.format("ddd, MMMM D, YYYY");
   tokyoTimeElement.innerHTML = tokyoTime.format("h:mm:ss [<small>]A[</small>]");
 
   // new-york
@@ -27,7 +27,7 @@ function updateTime() {
   let newYorkTimeElement = newYorkElement.querySelector(".time");
   let newYorkTime = moment().tz("America/New_York");
 
-  newYorkDateElement.innerHTML = newYorkTime.format("MMMM D, YYYY");
+  newYorkDateElement.innerHTML = newYorkTime.format("ddd, MMMM D, YYYY");
   newYorkTimeElement.innerHTML = newYorkTime.format(
     "h:mm:ss [<small>]A[</small>]"
   );
@@ -38,7 +38,7 @@ function updateTime() {
   let reykjavikTimeElement = reykjavikElement.querySelector(".time");
   let reykjavikTime = moment().tz("Atlantic/Reykjavik");
 
-  reykjavikDateElement.innerHTML = reykjavikTime.format("MMMM D, YYYY");
+  reykjavikDateElement.innerHTML = reykjavikTime.format("ddd, MMMM D, YYYY");
   reykjavikTimeElement.innerHTML = reykjavikTime.format(
     "h:mm:ss [<small>]A[</small>]"
   );
@@ -49,7 +49,7 @@ function updateTime() {
   let lagosTimeElement = lagosElement.querySelector(".time");
   let lagosTime = moment().tz("Africa/Lagos");
 
-  lagosDateElement.innerHTML = lagosTime.format("MMMM D, YYYY");
+  lagosDateElement.innerHTML = lagosTime.format("ddd, MMMM D, YYYY");
   lagosTimeElement.innerHTML = lagosTime.format("h:mm:ss [<small>]A[</small>]");
 }
 
@@ -65,7 +65,7 @@ function updateCity(event) {
   <div class="city">
     <div>
       <h2>${cityName}</h2>
-      <div class="date">${cityTime.format("MMMM D, YYYY")}</div>
+      <div class="date">${cityTime.format("ddd, MMMM D, YYYY")}</div>
     </div>
       <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format(
     "A"
